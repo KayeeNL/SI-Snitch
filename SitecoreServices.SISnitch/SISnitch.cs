@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
 using Sitecore.Owin.Authentication.Services;
-using Sitecore.Owin.Authentication.IdentityServer.Transformations;
 using Sitecore.Abstractions;
 using Sitecore.Diagnostics;
 
-namespace SitecoreServices.SISnitch 
+namespace SitecoreServices.SISnitch
 {
     public class Snitch : Transformation
     {
