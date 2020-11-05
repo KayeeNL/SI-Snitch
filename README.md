@@ -29,6 +29,7 @@ There are two ways to use this project:
 _Right click 'Save link as...' since GitHub doesn't respect url encoding, but markdown needs it for formatting in this readme ;-)_
 
 - [SI-Snitch for Sitecore-9.3](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-9.3.zip) ( Sitecore 9.3)
+- [SI-Snitch for Sitecore-10.0.0](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.0.0.zip) ( Sitecore 10.0.0)
 
 The above package can be installed through the normal Sitecore Installation Wizard.
 
@@ -58,6 +59,6 @@ _Originally developed by:_
 
 Derek Correia - Twitter: [@derekc](https://twitter.com/derekc), GitHub: https://github.com/derekcorreia
 
-_Upgraded to support Sitecore 9.3_
+_Upgraded to support Sitecore 9.3 & Sitecore 10.0.0_
 
 Robbert Hock - Twitter: [@kayeeNL](https://twitter.com/kayeenl), GitHub: https://github.com/KayeeNL
