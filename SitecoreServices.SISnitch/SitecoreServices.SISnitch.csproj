@@ -39,11 +39,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Kernel, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.10.0.1\lib\net48\Sitecore.Kernel.dll</HintPath>
+    <Reference Include="Sitecore.Kernel, Version=16.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Kernel.10.1.0\lib\net48\Sitecore.Kernel.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Owin.Authentication, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Owin.Authentication.10.0.1\lib\net48\Sitecore.Owin.Authentication.dll</HintPath>
+    <Reference Include="Sitecore.Owin.Authentication, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sitecore.Owin.Authentication.10.1.0\lib\net48\Sitecore.Owin.Authentication.dll</HintPath>
     </Reference>
     <Reference Include="sysglobl" />
     <Reference Include="System.Design" />
