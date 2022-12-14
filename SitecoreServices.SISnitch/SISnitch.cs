@@ -1,28 +1,23 @@
-﻿using System;
-using System.Security.Claims;
-using Sitecore.Owin.Authentication.Services;
+﻿using System.Security.Claims;
 using Sitecore.Abstractions;
 using Sitecore.Diagnostics;
+using Sitecore.Owin.Authentication.Services;
 
 namespace SitecoreServices.SISnitch
 {
     public class Snitch : Transformation
     {
-
         public Snitch(BaseLog log)
         {
             Assert.ArgumentNotNull(log, "log");
             Log = log;
         }
 
+        protected BaseLog Log { get; }
+
         public override void Transform(ClaimsIdentity identity, TransformationContext context)
         {
-            foreach (Claim c in identity.Claims)
-            {
-                Log.Info(String.Format("oO SI Snitch Oo -- Claim: {0} || Value: {1}", c.Type, c.Value), this);
-            }
+            foreach (var c in identity.Claims) Log.Info($"oO SI Snitch Oo -- Claim: {c.Type} || Value: {c.Value}", this);
         }
-
-        protected BaseLog Log { get; }
     }
 }
