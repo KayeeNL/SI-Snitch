@@ -33,6 +33,8 @@ _Right click 'Save link as...' since GitHub doesn't respect url encoding, but ma
 - [SI-Snitch for Sitecore-10.0.1](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.0.1.zip) ( Sitecore 10.0.1)
 - [SI-Snitch for Sitecore-10.1.0](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.1.0.zip) ( Sitecore 10.1.0)
 - [SI-Snitch for Sitecore-10.1.1](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.1.1.zip) ( Sitecore 10.1.1)
+- [SI-Snitch for Sitecore-10.1.2](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.1.2.zip) ( Sitecore 10.1.2)
+- [SI-Snitch for Sitecore-10.2](./Sitecore%20Packages/SI-Snitch%20for%20Sitecore-10.2.zip) ( Sitecore 10.2)
 
 The above package can be installed through the normal Sitecore Installation Wizard.
 
@@ -42,7 +44,7 @@ The following would be an output of SI Snitch in the Sitecore log file:
 
 - 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: nbf || Value: 1604563275
 - 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: exp || Value: 1604564775
-- 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: iss || Value: https://sc10_1_1.identityserver.dev.local
+- 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: iss || Value: https://sc10_2_0.identityserver.dev.local
 - 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: aud || Value: Sitecore
 - 32856 09:01:15 INFO oO SI Snitch Oo -- Claim: iat || Value: 1604563275
 
@@ -62,6 +64,6 @@ _Originally developed by:_
 
 Derek Correia - Twitter: [@derekc](https://twitter.com/derekc), GitHub: https://github.com/derekcorreia
 
-_Upgraded + tested to support Sitecore 9.3, Sitecore 10.0.0, Sitecore 10.0.1, Sitecore 10.1.0 & Sitecore 10.1.1_
+_Upgraded + tested to support Sitecore 9.3, Sitecore 10.0.0, Sitecore 10.0.1, Sitecore 10.1.0 , Sitecore 10.1.1, Sitecore 10.1.2, Sitecore 10.2_
 
 Robbert Hock - Twitter: [@kayeeNL](https://twitter.com/kayeenl), GitHub: https://github.com/KayeeNL
