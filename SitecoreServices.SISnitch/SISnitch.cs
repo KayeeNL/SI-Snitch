@@ -9,7 +9,7 @@ namespace SitecoreServices.SISnitch
     {
         public Snitch(BaseLog log)
         {
-            Assert.ArgumentNotNull(log, "log");
+            Assert.ArgumentNotNull(log, nameof(log));
             Log = log;
         }
 
@@ -17,6 +17,9 @@ namespace SitecoreServices.SISnitch
 
         public override void Transform(ClaimsIdentity identity, TransformationContext context)
         {
+            Assert.ArgumentNotNull(identity, nameof(identity));
+            Assert.ArgumentNotNull(context, nameof(context));
+
             foreach (var c in identity.Claims) Log.Info($"oO SI Snitch Oo -- Claim: {c.Type} || Value: {c.Value}", this);
         }
     }
